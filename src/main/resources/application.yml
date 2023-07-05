@@ -1,0 +1,11 @@
+spring:
+   datasource:
+         url : jdbc:sqlserver://localhost:1433;encrypt=true;trustServerCertificate=true;databaseName=Temp
+         username : sa
+         password : Passw@rd2022
+
+   jpa:
+        properties:
+             hibernate:
+                  dialect : org.hibernate.dialect.SQLServerDialect
+ 
